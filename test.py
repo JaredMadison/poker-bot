@@ -19,9 +19,9 @@ np.random.seed(1)
 
 synaptic_weights = 2 * np.random.random((3, 1)) - 1
 
-#hand = [Card.new('Qs'), Card.new('Th')]
-#card = Card.new('Qh')
-#Card.print_pretty_cards(hand)
+# hand = [Card.new('Qs'), Card.new('Th')]
+# card = Card.new('Qh')
+# Card.print_pretty_cards(hand)
 
 print('Random starting synaptic weights')
 print(synaptic_weights)
